@@ -49,7 +49,7 @@ const PartnerSchema = new Schema({
 
 // 3. Create a model for the object.
 // Specify the Model name and its Schema
-const Partner = model('partner', PartnerSchema);
+const Partner = model('Partner', PartnerSchema);
 
 // 4. Export the Model
 module.exports = Partner;
