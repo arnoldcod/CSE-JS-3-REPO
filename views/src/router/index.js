@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import StudentsDashboard  from '../views/students/StudentsDashboard.vue'
 import StudentsDetailView from '../views/students/StudentsDetailView.vue'
 import DepartmentsView from './../views/departments/DepartmentsView.vue'
 
@@ -9,12 +9,12 @@ const router = createRouter({
     {
       path: '/',
       name: 'StudentDashBoard',
-      component: StudentDashBoard 
+      component: StudentsDashboard 
     },
     {
       path: '/students/register',
-      name: 'StudentsDetailView',
-      component: StudentsDetailView
+      name: 'StudentsRegistration',
+      component: StudentsRegistrationView
     },
     {
       path: '/students',
