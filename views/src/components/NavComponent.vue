@@ -7,13 +7,16 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
+
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">
-            <RouterLink to="/">Home</RouterLink>
-          </a>
+          <RouterLink to="/">
+            <a class="nav-link" href="#">StudentsDashboard</a> 
+          </RouterLink>
+
         </li>
         <li class="nav-item">
-          <RouterLink to="/courses" > <a class="nav-link" href="#">Courses</a> 
+          <RouterLink to="/courses"> 
+            <a class="nav-link" href="#">Courses</a> 
           </RouterLink>
         </li>
         <li class="nav-item">
