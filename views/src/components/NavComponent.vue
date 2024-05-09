@@ -17,6 +17,10 @@
           </RouterLink>
         </li>
         <li class="nav-item">
+          <RouterLink to="/students" > <a class="nav-link" href="#">Students</a> 
+          </RouterLink>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#">Students</a>
         </li>
         <li class="nav-item">
