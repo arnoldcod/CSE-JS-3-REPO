@@ -19,25 +19,15 @@
           </RouterLink>
         </li>
         <li class="nav-item">
-          <RouterLink to="/courses"> 
-            <a class="nav-link" href="#">Courses</a> 
+          <RouterLink to="/students/studentsView">
+            <a class="nav-link" href="#">StudentsView</a> 
           </RouterLink>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Students</a>
+          <RouterLink to="/students/detail">
+            <a class="nav-link" href="#">StudentsDetailView</a> 
+          </RouterLink>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Staff</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"> 
-            <RouterLink to="/departments">Departments</RouterLink>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Partners</a>
-        </li>
-
       </ul>
     </div>
   </div>
