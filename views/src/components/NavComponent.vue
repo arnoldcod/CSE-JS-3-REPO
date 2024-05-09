@@ -12,7 +12,11 @@
           <RouterLink to="/">
             <a class="nav-link" href="#">StudentsDashboard</a> 
           </RouterLink>
-
+        </li>
+        <li class="nav-item">
+          <RouterLink to="/students/register">
+            <a class="nav-link" href="#">Studentsregister</a> 
+          </RouterLink>
         </li>
         <li class="nav-item">
           <RouterLink to="/courses"> 
